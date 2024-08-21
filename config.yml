@@ -1,7 +1,0 @@
-csv_input_file: 'node.csv'
-csv_split_output_file: 'csv_output.csv'
-font_path: 'MontserratAlternates-Thin.ttf'
-image_directory_path: 'C:/Users/zxx91/Desktop/DSU/'
-GOOGLE_APPLICATION_CREDENTIALS: 'inner-legacy-412817-c457e22e9329.json'
-img_quality: 50
-HAVE_OCR: False

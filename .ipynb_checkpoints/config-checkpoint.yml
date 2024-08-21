@@ -1,0 +1,44 @@
+#site_url
+site_url: "https://doris.digital.utsc.utoronto.ca"
+
+# input CSV file name
+csv_input_file: 'repo_info.csv'
+
+# output CSV file name
+csv_output_file: 'csv_output.csv'
+
+# Font style (can be remove or keep, the text is invisible
+font_path: 'NotoSansSC-VariableFont_wght.ttf'
+
+# image save path and file storage path
+image_directory_path: '/srv/dsu/COLLECTION_MANAGEMENT/ecn/ocr_processing_june_2024/'
+
+# action direactive
+# download_and_hocr
+# download
+# hocr
+# pdf
+action_direactive: "download_and_hocr"
+
+
+# google api key location
+GOOGLE_APPLICATION_CREDENTIALS: '/etc/google-cloud-service-keys/harley-spiller-957b8c666407.json'
+
+# Google API processor info
+project_id: "948332644541"
+location: "us"
+processor_id: "aa9dd4d8deaca535"
+
+# In img_quality the range is from 1 to 95, 1 is the lowest quality 
+# 1-25: Low quality, high compression, noticeable artifacts.
+# 26-50: Medium to low quality, moderate compression.
+# 51-75: Good quality, recommended for a balance between quality and file size.
+# 76-95: High quality, low compression, larger file sizes.
+img_quality: 51
+# Have OCR json file set as True, running for first time set as False
+HAVE_OCR: True
+
+output_dir_path: "/srv/dsu/COLLECTION_MANAGEMENT/ecn/ocr_processing_june_2024/"
+
+
+
